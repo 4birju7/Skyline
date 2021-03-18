@@ -16,7 +16,7 @@ struct bounPoint{
 	int y;
 };
 
-vector<struct building> records{
+vector<struct building> records = {
 	{31, 41, 5},
     {4, 9, 21},
     {30, 36, 9},
