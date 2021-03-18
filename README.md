@@ -13,7 +13,7 @@ For example, the input can be as follows.<br/>
 (32, 37, 12)<br/>
 (7, 16, 7)<br/>
 (24, 27, 10).<br/>
-To understand the problem properly please visit https://www.ideserve.co.in/learn/the-skyline-problem#:~:text=A%20city's%20skyline%20is%20the,when%20viewed%20from%20a%20distance.&text=For%20example%2C%20if%20input%20is,%2C%5B15%2C0%5D%5D. or https://www.youtube.com/watch?v=Cv0ft2dFz80.<br/>
+To understand the problem properly please visit https://www.ideserve.co.in/learn/the-skyline-problem#:~:text=A%20city's%20skyline%20is%20the,when%20viewed%20from%20a%20distance.&text=For%20example%2C%20if%20input%20is,%2C%5B15%2C0%5D%5D. or https://www.youtube.com/watch?v=Cv0ft2dFz80.<br/><br/>
 **Solution1: BRUTE FORCE APPROACH :** <br/>
 First we will sort the given building coordinates with respect to left x (Li) of building, so that we can start our approach. After sorting we will use and array named auxH with each element set to 0 initially.<br/>
 We'll iterate every building from start to end which are sorted in the array, and while iterating we will update auxH array's every element i.e, each coordinate, with larger of current element of auxH and the current value of building's height.<br/>
